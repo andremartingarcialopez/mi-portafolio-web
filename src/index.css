@@ -26,8 +26,19 @@ body {
 
 /*Fondo animados de los titulos*/
 .background-title {
-  background-color: #f3ec78;
-  background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+  background-color: #e7de35;
+  background: linear-gradient(90deg, #d15321, #c779d0, #4bc0c8);
+  -webkit-text-fill-color: transparent;
+  animation: gradient 9s ease infinite;
+  height: fit-content;
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.background-fail {
+  background-color: #dd3513;
+  background: linear-gradient(90deg, #b8d419, #c52222, #4bc0c8);
   -webkit-text-fill-color: transparent;
   animation: gradient 9s ease infinite;
   height: fit-content;
@@ -130,7 +141,7 @@ body {
   }
 
   .titulos {
-    @apply text-center text-[30px] py-3 md:text-6xl font-[600] text-white tracking-widest uppercase;
+    @apply text-center text-[20px] py-3 md:text-5xl font-[600] text-white tracking-widest uppercase;
   }
 
   .subtitulos {
