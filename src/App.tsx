@@ -4,6 +4,7 @@ import Frase from "./components/Frase"
 import MisServicios from "./components/MisServicios"
 import { Proyectos } from "./components/Proyectos"
 import { SobreMi } from "./components/sobreMi"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -63,6 +64,10 @@ function App() {
         <Proyectos/>
         <SobreMi/>
       </section>
+
+      <footer className="bg-body">
+        <Footer/>
+      </footer>
 
 
 

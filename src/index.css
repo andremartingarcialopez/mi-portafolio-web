@@ -19,7 +19,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-/*Fuente de frase de inovacion*/
+/*Fuente de palabra EXITO*/
 .font-innovation {
   font-family: 'Gugi', cursive;
 }
@@ -36,16 +36,6 @@ body {
   -webkit-background-clip: text;
 }
 
-.background-fail {
-  background-color: #dd3513;
-  background: linear-gradient(90deg, #b8d419, #c52222, #4bc0c8);
-  -webkit-text-fill-color: transparent;
-  animation: gradient 9s ease infinite;
-  height: fit-content;
-  background-size: 400% 400%;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
 
 /*bg-Animacion Main*/
 .bg-animation {
@@ -81,8 +71,7 @@ body {
 
 }
 
-
-
+/*CSS Titulo sobre mi*/
 .about-title {
   background-color: #f3ec78;
   background: linear-gradient(45deg, #FF886A, #FCF6CF);
@@ -94,6 +83,7 @@ body {
 
 }
 
+/*Sombra*/
 .text-shadow {
   text-shadow: 0.1rem 0.1rem 0.5rem rgba(255, 255, 255, 0.4);
 }
@@ -136,6 +126,7 @@ body {
   z-index: 1;
 }
 
+/*Efecto letras ISNTAGRAM*/
 .degradado-instagram {
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -146,6 +137,27 @@ body {
   height: fit-content;
 }
 
+/*Footer wave*/
+.custom-shape-divider-bottom-1654615957 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654615957 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1654615957 .shape-fill {
+  fill: #1d3557;
+}
+
+/*Mas componentes CSS personalizados*/
 @layer components {
 
   .efecto-hover-enlace {
