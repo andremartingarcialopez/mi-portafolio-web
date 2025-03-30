@@ -1,4 +1,4 @@
-import { MenuNavegacion } from "../types/MenuNavegacion"
+import { MenuNavegacion } from "../types/types"
 
 export const menuNavegacion: MenuNavegacion[] = [
     {option: "Servicios", href:"#servicios" },

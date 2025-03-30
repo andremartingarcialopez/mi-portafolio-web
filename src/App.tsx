@@ -1,6 +1,9 @@
 import { ArrowRightIcon, MapPinIcon } from "@heroicons/react/16/solid"
 import { menuNavegacion } from "./data/menuNavegacion"
 import Frase from "./components/Frase"
+import MisServicios from "./components/MisServicios"
+import { Proyectos } from "./components/Proyectos"
+import { SobreMi } from "./components/sobreMi"
 
 function App() {
 
@@ -56,7 +59,12 @@ function App() {
 
       <section className="bg-body">
         <Frase/>
+        <MisServicios/>
+        <Proyectos/>
+        <SobreMi/>
       </section>
+
+
 
     </>
   )
