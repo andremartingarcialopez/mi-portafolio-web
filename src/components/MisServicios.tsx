@@ -2,7 +2,7 @@ import { CodeBracketIcon } from "@heroicons/react/20/solid"
 
 export default function MisServicios() {
     return (
-        <div id='servicios' className=' h-auto w-full'>
+        <div  className='h-auto w-full'>
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h2 className='background-title text-shadow titulos'>Mis Servicios</h2>
                 <h3 className="subtitulos">Un compañero de trabajo el cual se caracteriza por ser perseverante y responsable.</h3>

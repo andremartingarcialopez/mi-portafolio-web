@@ -6,6 +6,7 @@ import { Proyectos } from "./components/Proyectos"
 import { SobreMi } from "./components/sobreMi"
 import Footer from "./components/Footer"
 
+
 function App() {
 
 
@@ -16,20 +17,20 @@ function App() {
         <div className="mx-auto md:grid grid-cols-3 items-center text-center text-white">
 
           <div>
-            <p className="font-semibold text-3xl ">André García</p>
+            <a className="font-semibold text-3xl " href="#">André García</a>
           </div>
 
           <div className="lg:grid pl-30 grid-cols-4 gap-6 md:ml-[-100px] hidden">
             {menuNavegacion.map(function (menuOption) {
               return (
-                <a className='lg:flex hidden justify-center items-center hover:font-semibold' href={menuOption.href}>{menuOption.option}</a>
+                <a key={menuOption.id} className='lg:flex hidden justify-center items-center hover:font-semibold' href={menuOption.href}>{menuOption.option}</a>
               )
             })}
           </div>
 
           <div>
             <a className="lg:flex hidden justify-center items-center hover:font-semibold gap-x-2" href="#contactame">Contactame
-              <ArrowRightIcon className="w-4 h-4"/>
+              <ArrowRightIcon className="w-4 h-4" />
             </a>
 
           </div>
@@ -46,8 +47,8 @@ function App() {
           </div>
 
           <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>
-            <h1 className='text-shadow titulos text-white/70'>Programador Jr<br />
-              <p className='md:pt-5'>JavaScript/TypeScript</p>
+            <h1 className='text-shadow titulos text-2xl md:text-[3rem] text-white/70'>Programador Jr <br/> JavaScript/TypeScript
+              
             </h1>
 
             <div className='flex flex-row justify-center items-baseline text-xl text-black/50'>
@@ -59,14 +60,22 @@ function App() {
       </section>
 
       <section className="bg-body">
-        <Frase/>
-        <MisServicios/>
-        <Proyectos/>
-        <SobreMi/>
+        <Frase />
+        <div id='servicios' className="lg:pt-30">
+          <MisServicios />
+        </div>
+
+        <div id="proyectos" className="lg:pt-30">
+          <Proyectos />
+        </div>
+
+        <div id="sobreMi" className="pt-10">
+          <SobreMi />
+        </div>
       </section>
 
       <footer className="bg-body">
-        <Footer/>
+        <Footer />
       </footer>
 
 

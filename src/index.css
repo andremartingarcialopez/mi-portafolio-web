@@ -3,6 +3,11 @@
 
 /*CSS Personalizado*/
 
+/*Efecto de despazamiento para el menu de navegacion*/
+html{
+  scroll-behavior: smooth;
+}
+
 /*Imagen perfil*/
 .border-img {
   border-radius: 100%;
@@ -34,6 +39,8 @@ body {
   background-size: 400% 400%;
   background-clip: text;
   -webkit-background-clip: text;
+  animation: AnimationBG 20s ease infinite;
+
 }
 
 
@@ -43,15 +50,21 @@ body {
   display: flex;
   align-items: center;
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg,
-      #74C390 0%,
-      #5DBDB6 16%,
-      #59D4E1 33%,
-      #51BCE8 50%,
-      #FA5374 66%,
-      #E46653 83%,
-      #74C390 100%);
-  animation: AnimateBG 20s ease infinite;
+  background-image: linear-gradient(-45deg,      #74C390 0%,      #5DBDB6 16%,      #59D4E1 33%,      #51BCE8 50%,      #FA5374 66%,      #E46653 83%,      #74C390 100%);
+  animation: AnimationBG 15s ease infinite;
+  -webkit-animation: AnimationBG 15s ease infinite;
+}
+
+@keyframes AnimationBG{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 60%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 /*Bg de todo el body*/
@@ -157,6 +170,58 @@ body {
   fill: #1d3557;
 }
 
+/*Pagina contacto*/
+.whats-title {
+  background-color: #f3ec78;
+  background: linear-gradient(45deg, #00B100, #AFFFCC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+
+}
+
+.glass-object-whats {
+  background-color: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 0px 30px 0 #00B100;
+  border: 1px solid #00B100;
+}
+
+.call-title {
+  background-color: #f3ec78;
+  background: linear-gradient(45deg, #F2BB33, #AFFFCC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+
+}
+
+.glass-object-call {
+  background-color: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 0px 30px 0 #F2BB33;
+  border: 1px solid #F2BB33;
+}
+
+.email-title {
+  background-color: #f3ec78;
+  background: linear-gradient(45deg, #DE4032, #AFFFCC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+
+}
+
+.glass-object-email {
+  background-color: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 0px 30px 0 #DE4032;
+  border: 1px solid #DE4032;
+}
+
 /*Mas componentes CSS personalizados*/
 @layer components {
 
@@ -165,7 +230,7 @@ body {
   }
 
   .titulos {
-    @apply text-center text-[20px] py-3 md:text-5xl font-[600] text-white tracking-widest uppercase;
+    @apply text-center text-[35px] py-3 md:text-5xl font-[600] text-white tracking-widest uppercase;
   }
 
   .subtitulos {

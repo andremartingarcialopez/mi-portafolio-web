@@ -1,10 +1,12 @@
 import { sobreMi } from "../data/sobreMi"
+import { ChatBubbleOvalLeftEllipsisIcon, EnvelopeIcon, PhoneIcon } from "@heroicons/react/16/solid"
+
 
 export function SobreMi() {
     return (
         <>
 
-            <div data-aos="fade-up" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-duration="1000" className="mt-8">
                 <h2 className='background-title text-shadow titulos pt-14'>Sobre mi</h2>
                 <h3 className='subtitulos pb-0'>Un poco más de mi vida...</h3>
             </div>
@@ -26,6 +28,7 @@ export function SobreMi() {
                                     <h3 className='text-left pb-2 font-[600] uppercase'> {hobbies.title}</h3>
                                 </div>
                                 <p className='text-white/80 text-left'>{hobbies.text}</p>
+
                             </div>
                         </>
                     )
@@ -40,9 +43,34 @@ export function SobreMi() {
 
             <div data-aos="fade-up" data-aos-duration="1000" id='contacto' className=' h-auto py-20 flex flex-col justify-center items-center'>
                 <h2 className='background-title text-shadow titulos lg:text-[90px]'>Trabajemos juntos!!</h2>
-                <a  className='hover:bg-white glass-object mt-14 text-2xl px-5 py-3 rounded-full text-white/50 hover:text-white/80 font-[700]' href="">
-                    Contactame
-                </a>
+
+
+                <div data-aos="fade-up" data-aos-duration="1000" className='flex justify-center items-center gap-10 flex-col lg:flex-row w-full mx-auto max-w-6xl md:justify-between my-15'>
+
+                    <div className='glass-object-whats  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                        <a href='https://api.whatsapp.com/send?phone=+523312839590' target={"_blank"} className='whats-title flex flex-row justify-start items-center gap-x-5'>
+                            <ChatBubbleOvalLeftEllipsisIcon className="h-24 w-24 text-[#00B100]"/>
+                            <h3 className='text-center text-2xl pb-2 font-[600]'>WhatsApp</h3>
+                        </a>
+                    </div>
+
+                    <div className='glass-object-call  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                        <a href='tel:+333312839590' target={"_blank"} className='call-title flex flex-row justify-start items-center gap-x-5'>
+                            <PhoneIcon className="h-24 w-24 text-[#F2BB33]"/>
+                            <h3 className='text-center text-2xl pb-2 font-[600]'>LLamada</h3>
+                        </a>
+                    </div>
+
+                    <div className='glass-object-email  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                        <a href='mailto:andregarlop.job@gmail.com' target={"_blank"} className='email-title flex flex-row justify-start items-center gap-x-5'>
+                            <EnvelopeIcon className="h-24 w-24 text-[#DE4032]"/>
+                            <h3 className='text-center text-2xl pb-2 font-[600]'>Email</h3>
+                        </a>
+                    </div>
+
+                </div>
+
+
 
             </div>
 

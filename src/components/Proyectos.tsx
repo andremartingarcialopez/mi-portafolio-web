@@ -3,7 +3,7 @@ import { projects } from "../data/proyectos"
 export function Proyectos() {
     return (
         <>
-            <div id='proyectos' className='text-center h-auto flex flex-col justify-center'>
+            <div className='text-center h-auto flex flex-col justify-center'>
 
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h2 className='background-title text-shadow titulos'>Mis Proyectos</h2>
@@ -13,7 +13,7 @@ export function Proyectos() {
                 {projects.map(function (project) {
                     return (
                         <>
-                            <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col justify-center items-center gap-x-5 gap-y-8'>
+                            <div key={project.id} data-aos="fade-up" data-aos-duration="1000" className='flex flex-col justify-center items-center gap-x-5 gap-y-8'>
 
                                 <div className='flex flex-col lg:flex-row md:gap-x-5 justify-center items-center py-4 border-b border-b-gray-400'>
 
