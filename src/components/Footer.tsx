@@ -28,7 +28,7 @@ export default function Footer() {
                         <p>Email</p>
                     </a>
 
-                    <a className='enlaces-footer' target={"_blank"} href="https://www.linkedin.com/in/andr%C3%A9-mart%C3%ADn-garc%C3%ADa-l%C3%B3pez-ba8a26240/">
+                    <a className='enlaces-footer' target={"_blank"} href="www.linkedin.com/in/andré-martín-garcía-lópez-ba8a26240">
                         <p>LinkedIn</p>
                     </a>
 
@@ -36,8 +36,7 @@ export default function Footer() {
                         <p>Instagram</p>
                     </a>
 
-                    <a className='enlaces-footer col-span-2' target={"_blank"} href="/img/André-Martín-García-López-CV.pdf">
-                        <i className="fa-solid fa-file-pdf"></i>
+                    <a className='enlaces-footer col-span-2' target={"_blank"} href="https://drive.google.com/file/d/1aZL6sMy1VUAyHzQRYVvfw_xmnliTui-1/view?usp=sharing">
                         <p>Curriculum Vitae</p>
                     </a>
 
