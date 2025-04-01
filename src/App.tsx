@@ -17,7 +17,9 @@ function App() {
         <div className="mx-auto md:grid grid-cols-3 items-center text-center text-white">
 
           <div>
-            <a className="font-semibold text-3xl " href="#">André García</a>
+            <a className="font-semibold text-3xl " href="#">André García
+            
+            </a>
           </div>
 
           <div className="lg:grid pl-30 grid-cols-4 gap-6 md:ml-[-100px] hidden">
@@ -47,7 +49,7 @@ function App() {
           </div>
 
           <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>
-            <h1 className='text-shadow titulos text-2xl md:text-[3rem] text-white/70'>Programador Jr <br/> JavaScript/TypeScript
+            <h1 className='text-shadow titulos text-xl md:text-[3rem] text-white/70'>Programador Jr <br/> JavaScript/TypeScript
               
             </h1>
 

@@ -37,7 +37,7 @@ export function SobreMi() {
 
 
             <div data-aos="fade-up  " data-aos-duration="1000" className='mt-15 text-center mx-auto'>
-                <h2 className='text-shadow titulos '> Disciplinado, perseverante,<br /> responsable, persistente.</h2>
+                <h2 className='text-shadow titulos '> Disciplinado. Perseverante.<br /> Responsable. Persistente.</h2>
                 <a className='subtitulos md:text-2xl' href="https://www.instagram.com/andy__garlop/" target={"_blank"}>¿Quieres saber más sobre mí? <br /> Visita mi <span className='degradado-instagram'>Instagram</span> </a>
             </div>
 
@@ -47,7 +47,7 @@ export function SobreMi() {
 
                 <div data-aos="fade-up" data-aos-duration="1000" className='flex justify-center items-center gap-10 flex-col lg:flex-row w-full mx-auto max-w-6xl md:justify-between my-15'>
 
-                    <div className='glass-object-whats  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                    <div className='glass-object-whats px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
                         <a href='https://api.whatsapp.com/send?phone=+523312839590' target={"_blank"} className='whats-title flex flex-row justify-start items-center gap-x-5'>
                             <ChatBubbleOvalLeftEllipsisIcon className="h-24 w-24 text-[#00B100]"/>
                             <h3 className='text-center text-2xl pb-2 font-[600]'>WhatsApp</h3>
