@@ -19,7 +19,7 @@ export function Proyectos() {
 
                                     <div>
                                         <h4 className='font-bold text-[1.5rem] p-2 text-white/90'>{project.title}</h4>
-                                        <a href="https://happy-pet-citas.netlify.app/" target="_blank">
+                                        <a href={project.url} target="_blank">
                                             <img className='glass-object rounded-2xl an w-[20rem] md:w-[30rem] hover:animate-pulse' width="100px" height="100px" src={project.img} alt="imagen-proyecto-happyPet-web" />
                                         </a>
                                     </div>
