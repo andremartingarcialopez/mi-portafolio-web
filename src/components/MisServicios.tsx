@@ -3,12 +3,12 @@ import { CodeBracketIcon } from "@heroicons/react/20/solid"
 export default function MisServicios() {
     return (
         <div  className='h-auto w-full'>
-            <div data-aos="fade-up" data-aos-duration="1000">
+            <div>
                 <h2 className='background-title text-shadow titulos'>Mis Servicios</h2>
                 <h3 className="subtitulos">Un compañero de trabajo el cual se caracteriza por ser perseverante y responsable.</h3>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="1000" className='w-full gap-y-4 flex lg:flex-row flex-col justify-center lg:justify-center lg:gap-x-20 items-center pb-20'>
+            <div   className='w-full gap-y-4 flex lg:flex-row flex-col justify-center lg:justify-center lg:gap-x-20 items-center pb-20'>
 
                 <img className='w-[25rem]' src="img/yo1.webp" width="100px" height="100px" alt="imagen-servicios" />
 

@@ -5,7 +5,7 @@ export function Proyectos() {
         <>
             <div className='text-center h-auto flex flex-col justify-center'>
 
-                <div data-aos="fade-up" data-aos-duration="1000">
+                <div  >
                     <h2 className='background-title text-shadow titulos'>Mis Proyectos</h2>
                     <h3 className='subtitulos mx-auto max-w-2xl'>Disfruto contribuir al éxito de los demás compartiendo mis conocimientos y habilidades.</h3>
                 </div>
@@ -13,7 +13,7 @@ export function Proyectos() {
                 {projects.map(function (project) {
                     return (
                         <>
-                            <div key={project.id} data-aos="fade-up" data-aos-duration="1000" className='flex flex-col justify-center items-center gap-x-5 gap-y-8'>
+                            <div key={project.id}   className='flex flex-col justify-center items-center gap-x-5 gap-y-8'>
 
                                 <div className='flex flex-col lg:flex-row md:gap-x-5 justify-center items-center py-4 border-b border-b-gray-400'>
 

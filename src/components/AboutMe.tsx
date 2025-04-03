@@ -6,13 +6,13 @@ export function SobreMi() {
     return (
         <>
 
-            <div data-aos="fade-up" data-aos-duration="1000" className="mt-8">
+            <div   className="mt-8">
                 <h2 className='background-title text-shadow titulos pt-14'>Sobre mi</h2>
                 <h3 className='subtitulos pb-0'>Un poco más de mi vida...</h3>
             </div>
             <div className='w-full gap-y-4 flex flex-col justify-center lg:justify-around lg:gap-x-20 items-center'>
 
-                <div data-aos="fade-up" data-aos-duration="1000">
+                <div  >
                     <img src="img/yo2.webp" className='w-[370px]' width="100px" height="100px" alt="imagen-sobre-mi" />
                 </div>
             </div>
@@ -22,7 +22,7 @@ export function SobreMi() {
                 {sobreMi.map(function (hobbies) {
                     return (
                         <>
-                            <div data-aos="fade-up" data-aos-duration="1000" className='glass-object-about-me mx-auto w-[20rem] md:w-[40rem] rounded-2xl p-5'>
+                            <div   className='glass-object-about-me mx-auto w-[20rem] md:w-[40rem] rounded-2xl p-5'>
                                 <div className='flex justify-center md:justify-start items-center gap-x-3 about-title text-2xl lg:text-2xl'>
                                     <div className="h-8 w-8 text-[#FF886A]">{hobbies.icono}</div>
                                     <h3 className='text-left pb-2 font-[600] uppercase'> {hobbies.title}</h3>
@@ -36,16 +36,16 @@ export function SobreMi() {
             </div>
 
 
-            <div data-aos="fade-up  " data-aos-duration="1000" className='mt-15 text-center mx-auto'>
+            <div data-aos="fade-up  "  className='mt-15 text-center mx-auto'>
                 <h2 className='text-shadow titulos '> Disciplinado. Perseverante.<br /> Responsable. Persistente.</h2>
                 <a className='subtitulos md:text-2xl' href="https://www.instagram.com/andy__garlop/" target={"_blank"}>¿Quieres saber más sobre mí? <br /> Visita mi <span className='degradado-instagram'>Instagram</span> </a>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="1000" id='contacto' className=' h-auto py-20 flex flex-col justify-center items-center'>
+            <div   id='contacto' className=' h-auto py-20 flex flex-col justify-center items-center'>
                 <h2 className='background-title text-shadow titulos lg:text-[90px]'>Trabajemos juntos!!</h2>
 
 
-                <div data-aos="fade-up" data-aos-duration="1000" className='flex justify-center items-center gap-10 flex-col lg:flex-row w-full mx-auto max-w-6xl md:justify-between my-15'>
+                <div   className='flex justify-center items-center gap-10 flex-col lg:flex-row w-full mx-auto max-w-6xl md:justify-between my-15'>
 
                     <div className='glass-object-whats px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
                         <a href='https://api.whatsapp.com/send?phone=+523312839590' target={"_blank"} className='whats-title flex flex-row justify-start items-center gap-x-5'>

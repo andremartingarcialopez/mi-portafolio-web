@@ -14,10 +14,11 @@ function App() {
     <>
 
       <header className="glass z-100 fixed w-full border p-4">
-        <div className="mx-auto md:grid grid-cols-3 items-center text-center text-white">
+        <div className="mx-auto max-w-[120rem] md:grid grid-cols-2 items-center text-center text-white">
 
-          <div>
-            <a className="font-semibold text-3xl " href="#">André García
+          <div className="flex justify-center items-center">
+            <a className="" href="#">
+              <img src="img\4.svg" className="w-80" alt="" />
             
             </a>
           </div>
@@ -30,12 +31,7 @@ function App() {
             })}
           </div>
 
-          <div>
-            <a className="lg:flex hidden justify-center items-center hover:font-semibold gap-x-2" href="#contactame">Contactame
-              <ArrowRightIcon className="w-4 h-4" />
-            </a>
-
-          </div>
+          
 
         </div>
       </header>

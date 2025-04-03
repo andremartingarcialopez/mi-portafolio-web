@@ -11,7 +11,14 @@ export default function Footer() {
             <div className='bg-[#1d3557] text-white gap-y-4 w-full flex flex-col lg:flex-row justify-around  items-center h-auto py-3'>
 
                 <div>
-                    <p>©{new Date().getFullYear()} André Martín García López</p>
+                <div className="flex justify-center items-center">
+            <a className="" href="#">
+              <img src="img\4.svg" className="w-80" alt="" />
+            
+            </a>
+          </div>
+                    <p className=" text-center">©{new Date().getFullYear()}</p>
+                    
                 </div>
 
                 <div>
@@ -28,7 +35,7 @@ export default function Footer() {
                         <p>Email</p>
                     </a>
 
-                    <a className='enlaces-footer' target={"_blank"} href="www.linkedin.com/in/andré-martín-garcía-lópez-ba8a26240">
+                    <a className='enlaces-footer' target={"_blank"} href="https://www.linkedin.com/in/andre-martin-garcia-lopez-ba8a26240/">
                         <p>LinkedIn</p>
                     </a>
 
