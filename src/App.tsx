@@ -1,4 +1,4 @@
-import { ArrowRightIcon, MapPinIcon } from "@heroicons/react/16/solid"
+import { MapPinIcon } from "@heroicons/react/16/solid"
 import { menuNavegacion } from "./data/menuNavegacion"
 import Frase from "./components/Frase"
 import MisServicios from "./components/MisServicios"
