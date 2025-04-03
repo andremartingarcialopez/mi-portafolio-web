@@ -15,5 +15,6 @@ export type Projects = {
     technologie02: string;
     descrptionTechnologie02: string;
     id: number;
-    url: string
+    url: string;
+    alt: string
 }

@@ -14,11 +14,12 @@ export const projects: Projects[] = [
     descrptionTechnologie02:
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 1,
-    url: "https://happy-pet-citas.netlify.app"
+    url: "https://happy-pet-citas.netlify.app",
+    alt: "imagen-proyecto-happy-pet"
   },
   {
     title: "Borcelle",
-    img: "public/img/borcelleWeb.webp",
+    img: "img/borcelleWeb.webp",
     description:
       "El proyecto de Borcelle consiste en el desarrollo de una landing page dinámica y moderna, diseñada para simular una tienda de skincare que no solo presenta productos de alta calidad, sino también ofrece una experiencia completa para el usuario. Borcelle, una marca especializada en el cuidado de la piel, se presenta como una opción única en el mercado, combinando ciencia dermatológica, ingredientes naturales y sostenibilidad en cada uno de sus productos.",
     technologiesUse: "Tecnologias Usadas",
@@ -29,7 +30,8 @@ export const projects: Projects[] = [
     descrptionTechnologie02:
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 2, 
-    url: "https://borcelle-salud-belleza.netlify.app/"
+    url: "https://borcelle-salud-belleza.netlify.app/",
+    alt: "imagen-proyecto-borcelle"
   },
 
 ];
