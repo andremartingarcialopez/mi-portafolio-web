@@ -3,11 +3,11 @@ import { Projects } from "../types/types";
 export const projects: Projects[] = [
   {
     title: "Happy :) Pet",
-    img: "img/happypet-web.webp",
+    img: "img/happy-pet.webp",
     description:
-      "Desarrollo de una simulación de un sitio web para la gestión de citas de mascotas, que permite a los usuarios agendar, editar y eliminar citas de manera intuitiva. La plataforma ofrece una experiencia fácil de usar para mantener un seguimiento de las citas y actividades relacionadas con el cuidado de las mascotas.",
-    technologiesUse: "Tecnologias Usadas",
-    technologie01: "ViteJS:",
+      "Desarrollo de una simulación de una app web para la gestión de citas de mascotas, que permite al beterinario agendar, editar y eliminar citas de manera intuitiva. La plataforma ofrece una experiencia fácil de usar para mantener un seguimiento de las citas y actividades relacionadas con el cuidado de las mascotas.",
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React:",
     descrptionTechnologie01:
       "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
     technologie02: "TailwindCSS",
@@ -22,32 +22,32 @@ export const projects: Projects[] = [
     img: "img/borcelleWeb.webp",
     description:
       "El proyecto de Borcelle consiste en el desarrollo de una landing page dinámica y moderna, diseñada para simular una tienda de skincare que no solo presenta productos de alta calidad, sino también ofrece una experiencia completa para el usuario. Borcelle, una marca especializada en el cuidado de la piel, se presenta como una opción única en el mercado, combinando ciencia dermatológica, ingredientes naturales y sostenibilidad en cada uno de sus productos.",
-    technologiesUse: "Tecnologias Usadas",
+    technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
       "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
     technologie02: "TailwindCSS",
     descrptionTechnologie02:
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
-    id: 2, 
+    id: 2,
     url: "https://borcelle-salud-belleza.netlify.app/",
     alt: "imagen-proyecto-borcelle"
   },
   {
-    title: "Pagina sobre la buena alimetacion y contador de calorias",
-    img: "img/comming soon.webp",
+    title: "NutriTracker",
+    img: "img/NutriTracker.webp",
     description:
-      "",
-    technologiesUse: "",
-    technologie01: "",
+      "NutriTracker es una página web creada para Alondra Estrada, nutricionista profesional, donde podrás conocer sus servicios, obtener información de contacto. Uno de los apartados más destacados es el de Contador de Calorías, una herramienta interactiva que te permite llevar un seguimiento diario tanto de las calorías que consumes como de las que quemas mediante actividades físicas. Con esta funcionalidad podrás: Registrar tus alimentos y su aporte calórico. Anotar actividades físicas realizadas y las calorías quemadas. Obtener un balance final de calorías diarias. Saber si estás en un estado de déficit calórico, ideal si tu objetivo es bajar de peso. Todo esto en un entorno simple, intuitivo y diseñado para ayudarte a alcanzar tus metas nutricionales de forma práctica.",
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
     descrptionTechnologie01:
-      "",
-    technologie02: "",
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
     descrptionTechnologie02:
-      "",
-    id: 3, 
-    url: "",
-    alt: "imagen-proyecto-alimentacion"
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
+    id: 3,
+    url: "https://nutritrackcalories.netlify.app/",
+    alt: "imagen-proyecto-nutritrack"
   },
 
 ];

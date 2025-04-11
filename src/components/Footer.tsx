@@ -13,7 +13,7 @@ export default function Footer() {
                 <div>
                 <div className="flex justify-center items-center">
             <a className="" href="#">
-              <img src="img\4.svg" className="w-80" alt="" />
+              <img src="img\4.svg" className="md:w-80 w-50" alt="" />
             
             </a>
           </div>
