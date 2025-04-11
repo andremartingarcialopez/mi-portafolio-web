@@ -49,5 +49,21 @@ export const projects: Projects[] = [
     url: "https://nutritrackcalories.netlify.app/",
     alt: "imagen-proyecto-nutritrack"
   },
+  {
+    title: "ToDoList",
+    img: "img/comming soon.webp",
+    description:
+      "",
+    technologiesUse: "",
+    technologie01: "",
+    descrptionTechnologie01:
+      "",
+    technologie02: "",
+    descrptionTechnologie02:
+      "",
+    id: 4,
+    url: "",
+    alt: "imagen-proyecto-toDoList"
+  },
 
 ];
