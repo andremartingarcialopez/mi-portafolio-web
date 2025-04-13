@@ -51,18 +51,18 @@ export const projects: Projects[] = [
   },
   {
     title: "ToDoList",
-    img: "img/comming soon.webp",
+    img: "img/todolist.webp",
     description:
-      "",
-    technologiesUse: "",
-    technologie01: "",
+      `ToDoList es una aplicación que permite al usuario gestionar su lista de tareas diarias de forma sencilla e intuitiva. Ofrece funcionalidades clave como marcar tareas como completadas (“check”), editar tareas existentes y eliminarlas cuando ya no sean necesarias. Es una herramienta útil para mantener el enfoque y la organización personal. La aplicación está diseñada para ofrecer una experiencia simple y eficiente, ideal para demostrar habilidades en manejo de estado, componentes reutilizables y lógica de interacción con el usuario.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
     descrptionTechnologie01:
-      "",
-    technologie02: "",
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
     descrptionTechnologie02:
-      "",
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 4,
-    url: "",
+    url: "https://todolist4today.netlify.app/",
     alt: "imagen-proyecto-toDoList"
   },
 
