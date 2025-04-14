@@ -29,8 +29,6 @@ export function Proyectos() {
                                     <p className="my-3 text-white">{project.technologiesUse}</p>
                                     <p className='text-[#d6fd49]'>{project.technologie01} <span className="text-white">{project.descrptionTechnologie01}</span></p>
                                     <p className='text-[#38bdf8]'>{project.technologie02} <span className="text-white"> {project.descrptionTechnologie02}</span></p>
-
-                                    <p></p>
                                 </div>
                             </div>
                         </div>

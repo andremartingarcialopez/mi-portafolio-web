@@ -65,5 +65,21 @@ export const projects: Projects[] = [
     url: "https://todolist4today.netlify.app/",
     alt: "imagen-proyecto-toDoList"
   },
+  {
+    title: "Menu&Propinas",
+    img: "img/comming soon.webp",
+    description:
+      ``,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "",
+    descrptionTechnologie01:
+      "",
+    technologie02: "",
+    descrptionTechnologie02:
+      "",
+    id: 5,
+    url: "",
+    alt: "imagen-proyecto-menu&propinas"
+  },
 
 ];
