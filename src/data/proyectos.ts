@@ -67,18 +67,18 @@ export const projects: Projects[] = [
   },
   {
     title: "Menu&Propinas",
-    img: "img/comming soon.webp",
+    img: "img/menu-propinas.webp",
     description:
-      ``,
+      `"Menú y Propinas" es un proyecto que simula el sistema de un restaurante, permitiendo a los meseros o usuarios gestionar fácilmente los pedidos. Con esta aplicación, pueden registrar todos los platillos disponibles en el menú, así como agregar nuevos o eliminar los existentes. Al finalizar un pedido, el usuario puede seleccionar un porcentaje de propina, y el sistema calculará automáticamente el subtotal, el monto de la propina y el total a pagar. Es una herramienta simple pero funcional para agilizar la atención en un restaurante.`,
     technologiesUse: "Tecnologias Usadas:",
-    technologie01: "",
+    technologie01: "React/TypeScript",
     descrptionTechnologie01:
-      "",
-    technologie02: "",
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
     descrptionTechnologie02:
-      "",
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 5,
-    url: "",
+    url: "https://menuypropinas.netlify.app/",
     alt: "imagen-proyecto-menu&propinas"
   },
 
