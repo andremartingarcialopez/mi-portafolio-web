@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <p>| Programador Junior Js/TypeScript |</p>
+                    <p>| Front End Junior Js/React/TypeScript |</p>
                 </div>
 
                 <div className='md:flex md:gap-x-10  grid grid-cols-2 gap-2  lg:grid lg:grid-cols-2 '>
