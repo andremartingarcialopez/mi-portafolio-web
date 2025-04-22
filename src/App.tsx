@@ -45,7 +45,7 @@ function App() {
           </div>
 
           <div className='flex flex-col justify-center lg:items-center lg:h-[90vh]'>
-            <h1 className='text-shadow titulos text-xl md:text-[3rem] text-white/70'>Programador Jr <br/> JavaScript/TypeScript
+            <h1 className='text-shadow titulos text-xl md:text-[3rem] text-white/70'>Front End Jr <br/> JavaScript/React TypeScript
               
             </h1>
 

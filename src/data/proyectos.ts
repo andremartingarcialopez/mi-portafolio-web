@@ -81,5 +81,21 @@ export const projects: Projects[] = [
     url: "https://menuypropinas.netlify.app/",
     alt: "imagen-proyecto-menu&propinas"
   },
+  {
+    title: "Aseguradora de Auto",
+    img: "img/comming soon.webp",
+    description:
+      ``,
+    technologiesUse: "",
+    technologie01: "",
+    descrptionTechnologie01:
+      "",
+    technologie02: "",
+    descrptionTechnologie02:
+      "",
+    id: 5,
+    url: "",
+    alt: "imagen-proyecto-aseguradora"
+  },
 
 ];
