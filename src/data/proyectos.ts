@@ -82,20 +82,20 @@ export const projects: Projects[] = [
     alt: "imagen-proyecto-menu&propinas"
   },
   {
-    title: "Aseguradora de Auto",
-    img: "img/comming soon.webp",
+    title: "My Budget Control",
+    img: "img/my-budget-control.webp",
     description:
-      ``,
-    technologiesUse: "",
-    technologie01: "",
+      `My BudgetControl es una aplicación diseñada para facilitar la gestión y el seguimiento de presupuestos personales. Ofrece una interfaz intuitiva y atractiva, que permite al usuario registrar, editar y eliminar gastos de manera sencilla. Además, incluye una representación gráfica que muestra el porcentaje del presupuesto consumido, brindando una visión clara del estado financiero en tiempo real.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
     descrptionTechnologie01:
-      "",
-    technologie02: "",
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
     descrptionTechnologie02:
-      "",
-    id: 5,
-    url: "",
-    alt: "imagen-proyecto-aseguradora"
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
+    id: 6,
+    url: "https://my-budget-control.netlify.app/",
+    alt: "imagen-proyecto-my-budget-control"
   },
 
 ];
