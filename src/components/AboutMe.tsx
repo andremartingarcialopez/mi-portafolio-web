@@ -47,21 +47,21 @@ export function SobreMi() {
 
                 <div className='flex justify-center items-center gap-10 flex-col lg:flex-row w-full mx-auto max-w-6xl md:justify-between my-15'>
 
-                    <div className='glass-object-whats px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
-                        <a href='https://api.whatsapp.com/send?phone=+523312839590' target={"_blank"} className='whats-title flex flex-row justify-start items-center gap-x-5'>
+                    <div className='glass-object-whats px-7 flex justify-center items-center w-full  p-2 animate__animated animate__headShake animate__infinite animate__slow hover:bg-[#1f26875e] cursor-pointer '>
+                        <a href='https://api.whatsapp.com/send?phone=+523312839590' target={"_blank"} className='whats-title flex flex-row justify-start items-center gap-x-5 '>
                             <ChatBubbleOvalLeftEllipsisIcon className="h-24 w-24 text-[#00B100]" />
                             <h3 className='text-center text-2xl pb-2 font-[600]'>WhatsApp</h3>
                         </a>
                     </div>
 
-                    <div className='glass-object-call  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                    <div className='glass-object-call flex justify-center items-center  px-7 w-full  p-2 animate__animated animate__headShake animate__infinite animate__slow hover:bg-[#1f26875e] cursor-pointer'>
                         <a href='tel:+333312839590' target={"_blank"} className='call-title flex flex-row justify-start items-center gap-x-5'>
                             <PhoneIcon className="h-24 w-24 text-[#F2BB33]" />
-                            <h3 className='text-center text-2xl pb-2 font-[600]'>LLamada</h3>
+                            <h3 className='text-center text-2xl pb-2 font-[600]'>Llamada</h3>
                         </a>
                     </div>
 
-                    <div className='glass-object-email  px-7 w-[17rem] rounded-lg p-2 animate__animated animate__headShake animate__infinite animate__slow'>
+                    <div className='glass-object-email flex justify-center items-center  px-7 w-full  p-2 animate__animated animate__headShake animate__infinite animate__slow hover:bg-[#1f26875e] cursor-pointer'>
                         <a href='mailto:andregarlop.job@gmail.com' target={"_blank"} className='email-title flex flex-row justify-start items-center gap-x-5'>
                             <EnvelopeIcon className="h-24 w-24 text-[#DE4032]" />
                             <h3 className='text-center text-2xl pb-2 font-[600]'>Email</h3>

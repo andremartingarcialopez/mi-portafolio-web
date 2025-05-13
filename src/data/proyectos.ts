@@ -3,11 +3,11 @@ import { Projects } from "../types/types";
 export const projects: Projects[] = [
   {
     title: "Happy :) Pet",
-    img: "img/happy-pet.webp",
+    img: "/img/happy-pet.webp",
     description:
-      "Desarrollo de una simulación de una app web para la gestión de citas de mascotas, que permite al beterinario agendar, editar y eliminar citas de manera intuitiva. La plataforma ofrece una experiencia fácil de usar para mantener un seguimiento de las citas y actividades relacionadas con el cuidado de las mascotas.",
+      "Simulación de una app web para gestión de citas veterinarias, con funciones de agendar, editar y eliminar citas. Diseñada para ofrecer una experiencia intuitiva y facilitar el seguimiento del cuidado de mascotas.",
     technologiesUse: "Tecnologias Usadas:",
-    technologie01: "React:",
+    technologie01: "React",
     descrptionTechnologie01:
       "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
     technologie02: "TailwindCSS",
@@ -19,9 +19,9 @@ export const projects: Projects[] = [
   },
   {
     title: "Borcelle",
-    img: "img/borcelleWeb.webp",
+    img: "/img/borcelleWeb.webp",
     description:
-      "El proyecto de Borcelle consiste en el desarrollo de una landing page dinámica y moderna, diseñada para simular una tienda de skincare que no solo presenta productos de alta calidad, sino también ofrece una experiencia completa para el usuario. Borcelle, una marca especializada en el cuidado de la piel, se presenta como una opción única en el mercado, combinando ciencia dermatológica, ingredientes naturales y sostenibilidad en cada uno de sus productos.",
+      "Desarrollo de una landing page dinámica para Borcelle, una marca de skincare. El sitio simula una tienda moderna que destaca productos de cuidado de la piel, combinando ciencia dermatológica, ingredientes naturales y sostenibilidad.",
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -35,9 +35,9 @@ export const projects: Projects[] = [
   },
   {
     title: "NutriTracker",
-    img: "img/NutriTracker.webp",
+    img: "/img/NutriTracker.webp",
     description:
-      "NutriTracker es una página web creada para Alondra Estrada, nutricionista profesional, donde podrás conocer sus servicios, obtener información de contacto. Uno de los apartados más destacados es el de Contador de Calorías, una herramienta interactiva que te permite llevar un seguimiento diario tanto de las calorías que consumes como de las que quemas mediante actividades físicas. Con esta funcionalidad podrás: Registrar tus alimentos y su aporte calórico. Anotar actividades físicas realizadas y las calorías quemadas. Obtener un balance final de calorías diarias. Saber si estás en un estado de déficit calórico, ideal si tu objetivo es bajar de peso. Todo esto en un entorno simple, intuitivo y diseñado para ayudarte a alcanzar tus metas nutricionales de forma práctica.",
+      "NutriTracker es una página web desarrollada para una nutricionista profesional. Incluye un contador de calorías interactivo que permite registrar alimentos, actividades físicas y obtener un balance diario. Diseñada para ofrecer una experiencia simple e intuitiva enfocada en apoyar metas nutricionales.",
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -51,9 +51,9 @@ export const projects: Projects[] = [
   },
   {
     title: "ToDoList",
-    img: "img/todolist.webp",
+    img: "/img/todolist.webp",
     description:
-      `ToDoList es una aplicación que permite al usuario gestionar su lista de tareas diarias de forma sencilla e intuitiva. Ofrece funcionalidades clave como marcar tareas como completadas (“check”), editar tareas existentes y eliminarlas cuando ya no sean necesarias. Es una herramienta útil para mantener el enfoque y la organización personal. La aplicación está diseñada para ofrecer una experiencia simple y eficiente, ideal para demostrar habilidades en manejo de estado, componentes reutilizables y lógica de interacción con el usuario.`,
+      `ToDoList es una app de gestión de tareas que permite agregar, editar, completar y eliminar tareas de forma intuitiva. Diseñada para ofrecer una experiencia simple y eficiente, destaca el manejo de estado, componentes reutilizables y lógica de interacción con el usuario.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -67,9 +67,9 @@ export const projects: Projects[] = [
   },
   {
     title: "Menu&Propinas",
-    img: "img/menu-propinas.webp",
+    img: "/img/menu-propinas.webp",
     description:
-      `"Menú y Propinas" es un proyecto que simula el sistema de un restaurante, permitiendo a los meseros o usuarios gestionar fácilmente los pedidos. Con esta aplicación, pueden registrar todos los platillos disponibles en el menú, así como agregar nuevos o eliminar los existentes. Al finalizar un pedido, el usuario puede seleccionar un porcentaje de propina, y el sistema calculará automáticamente el subtotal, el monto de la propina y el total a pagar. Es una herramienta simple pero funcional para agilizar la atención en un restaurante.`,
+      `‘Menú y Propinas’ es una app que simula la gestión de pedidos en un restaurante. Permite registrar, agregar o eliminar platillos, y calcular automáticamente subtotal, propina y total al finalizar un pedido. Una herramienta funcional y sencilla para optimizar la atención al cliente.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -83,9 +83,9 @@ export const projects: Projects[] = [
   },
   {
     title: "My Budget Control",
-    img: "img/my-budget-control.webp",
+    img: "/img/my-budget-control.webp",
     description:
-      `My BudgetControl es una aplicación diseñada para facilitar la gestión y el seguimiento de presupuestos personales. Ofrece una interfaz intuitiva y atractiva, que permite al usuario registrar, editar y eliminar gastos de manera sencilla. Además, incluye una representación gráfica que muestra el porcentaje del presupuesto consumido, brindando una visión clara del estado financiero en tiempo real.`,
+      `My BudgetControl es una app para gestionar presupuestos personales. Permite registrar, editar y eliminar gastos, y muestra gráficamente el porcentaje del presupuesto consumido, ofreciendo una visión clara del estado financiero en tiempo real.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
