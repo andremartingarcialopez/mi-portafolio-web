@@ -11,7 +11,7 @@ export default function ProjectDetails() {
 
     return (
         <>
-            <header className="glass z-100 fixed w-full border p-4">
+            <header className="glass z-100 fixed w-full  p-4">
 
                 <div className="mx-auto max-w-6xl flex justify-between items-center text-center text-white">
 
@@ -37,7 +37,7 @@ export default function ProjectDetails() {
             </header>
 
 
-            <div className="flex h-screen justify-center items-center">
+            <div className="flex h-screen justify-center items-center content ">
 
                 <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-5 md:mx-auto md:max-w-7xl px-2 mt-10 lg:mt-0">
 

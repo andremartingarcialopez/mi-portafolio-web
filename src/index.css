@@ -20,6 +20,7 @@ body {
   font-family: 'Rubik', sans-serif;
   background-color: #0B132B;
   
+  
 }
 
 .font-text1 {
@@ -172,6 +173,23 @@ body {
 .custom-shape-divider-bottom-1654615957 .shape-fill {
   fill: #1d3557;
 }
+
+/* Estilos para el header */
+.glass {
+  position: fixed; /* Esto hace que el header sea fijo */
+  top: 0; /* Fija el header en la parte superior */
+  left: 0;
+  width: 100%; /* Asegúrate de que ocupe toda la pantalla */
+  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  padding: 16px; /* Ajusta el padding como desees */
+}
+
+/* Estilo para el contenido debajo del header */
+.content {
+  margin-top: 80px; /* Ajusta esto según la altura de tu header */
+  padding: 20px;
+}
+
 
 /*Pagina contacto*/
 .whats-title {
