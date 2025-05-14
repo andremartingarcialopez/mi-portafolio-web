@@ -25,7 +25,7 @@ export function Proyectos() {
                                     </Link>
                                 </div>
 
-                               <a className="text-white my-5 bg-[#1d3557] hover:bg-[#7b9cca] p-1 w-full rounded-xl text-sm md:text-lg" href={project.url}> Ir al Proyecto</a>
+                                <a className="text-white my-5 bg-[#1d3557] hover:bg-[#7b9cca] p-1 w-full rounded-xl text-sm md:text-lg" href={project.url}> Ir al Proyecto</a>
                             </div>
                         </div>
 
