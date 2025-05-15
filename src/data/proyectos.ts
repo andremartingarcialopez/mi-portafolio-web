@@ -3,7 +3,7 @@ import { Projects } from "../types/types";
 export const projects: Projects[] = [
   {
     title: "Happy :) Pet",
-    img: "/img/happy-pet.webp",
+    img: "/img/happy-pet.PNG",
     description:
       "Simulación de una app web para gestión de citas veterinarias, con funciones de agendar, editar y eliminar citas. Diseñada para ofrecer una experiencia intuitiva y facilitar el seguimiento del cuidado de mascotas.",
     technologiesUse: "Tecnologias Usadas:",
@@ -14,7 +14,7 @@ export const projects: Projects[] = [
     descrptionTechnologie02:
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 1,
-    url: "https://happy-pet-citas.netlify.app",
+    url: "https://happy-pets-mascotas-felices.netlify.app/",
     alt: "imagen-proyecto-happy-pet"
   },
   {

@@ -13,7 +13,7 @@ export default function ProjectDetails() {
         <>
             <header className="glass z-100 fixed w-full  p-4">
 
-                <div className="mx-auto max-w-6xl flex justify-between items-center text-center text-white">
+                <div className="mx-auto max-w-6xl flex justify-center lg:justify-between items-center text-center text-white">
 
                     <div className="flex justify-center items-center">
                         <Link to={"/"} className="">
@@ -22,7 +22,7 @@ export default function ProjectDetails() {
                         </Link>
                     </div>
 
-                    <div className="">
+                    <div className="hidden lg:flex">
 
                         <Link to={`/`} className='flex gap-1  justify-center items-center hover:font-semibold'>
                             <ArrowLeftCircleIcon className="w-5" />
