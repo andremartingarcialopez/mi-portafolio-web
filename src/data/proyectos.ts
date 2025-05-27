@@ -101,7 +101,7 @@ export const projects: Projects[] = [
     title: "Garlo Pacientes",
     img: "/img/garlo-pacientes.webp",
     description:
-      `Aplicación desarrollada para que la odontóloga Paulina pueda agendar fácilmente a sus pacientes, con funciones para editar y eliminar citas de manera rápida y organizada. Para lograr una interfaz visual atractiva y moderna se utilizó Tailwind CSS. Además, se integró React Toastify para mostrar notificaciones al agregar, editar o eliminar pacientes. La gestión de formularios se realizó con React Hook Form, y se implementó Zustand para manejar el estado global de forma sencilla y eficiente.`,
+      `Aplicación para la odontóloga Paulina que permite agendar, editar y eliminar citas de forma sencilla y organizada. Se usaron tecnologías como Tailwind CSS para el diseño, React Toastify para notificaciones, React Hook Form para formularios y Zustand para manejo de estado global.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
