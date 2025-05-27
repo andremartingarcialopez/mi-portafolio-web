@@ -11,7 +11,7 @@ export function Proyectos() {
                     <h3 className='subtitulos mx-auto max-w-2xl'>Disfruto contribuir al éxito de los demás compartiendo mis conocimientos y habilidades.</h3>
                 </div>
 
-                <div className="max-h-200 overflow-y-scroll ">
+                <div className="max-h-200 overflow-y-scroll lg:max-h-none lg:overflow-visible ">
                     {projects.map(function (project) {
                         return (
 
