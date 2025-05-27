@@ -97,5 +97,21 @@ export const projects: Projects[] = [
     url: "https://my-budget-control.netlify.app/",
     alt: "imagen-proyecto-my-budget-control"
   },
+    {
+    title: "Garlo Pacientes",
+    img: "/img/garlo-pacientes.webp",
+    description:
+      `Aplicación desarrollada para que la odontóloga Paulina pueda agendar fácilmente a sus pacientes, con funciones para editar y eliminar citas de manera rápida y organizada. Para lograr una interfaz visual atractiva y moderna se utilizó Tailwind CSS. Además, se integró React Toastify para mostrar notificaciones al agregar, editar o eliminar pacientes. La gestión de formularios se realizó con React Hook Form, y se implementó Zustand para manejar el estado global de forma sencilla y eficiente.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
+    descrptionTechnologie01:
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
+    descrptionTechnologie02:
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
+    id: 7,
+    url: "https://garlo-pacientes.netlify.app/",
+    alt: "imagen-proyecto-garlo-pacientes"
+  }
 
 ];
