@@ -15,7 +15,7 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 1,
     url: "https://happy-pets-mascotas-felices.netlify.app/",
-    alt: "imagen-proyecto-happy-pet"
+    alt: "imagen-proyecto-happy-pet",
   },
   {
     title: "Borcelle",
@@ -31,7 +31,7 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 2,
     url: "https://borcelle-salud-belleza.netlify.app/",
-    alt: "imagen-proyecto-borcelle"
+    alt: "imagen-proyecto-borcelle",
   },
   {
     title: "NutriTracker",
@@ -47,13 +47,12 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 3,
     url: "https://nutritrackcalories.netlify.app/",
-    alt: "imagen-proyecto-nutritrack"
+    alt: "imagen-proyecto-nutritrack",
   },
   {
     title: "ToDoList",
     img: "/img/todolist.webp",
-    description:
-      `ToDoList es una app de gestión de tareas que permite agregar, editar, completar y eliminar tareas de forma intuitiva. Diseñada para ofrecer una experiencia simple y eficiente, destaca el manejo de estado, componentes reutilizables y lógica de interacción con el usuario.`,
+    description: `ToDoList es una app de gestión de tareas que permite agregar, editar, completar y eliminar tareas de forma intuitiva. Diseñada para ofrecer una experiencia simple y eficiente, destaca el manejo de estado, componentes reutilizables y lógica de interacción con el usuario.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -63,13 +62,12 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 4,
     url: "https://todolist4today.netlify.app/",
-    alt: "imagen-proyecto-toDoList"
+    alt: "imagen-proyecto-toDoList",
   },
   {
     title: "Menu&Propinas",
     img: "/img/menu-propinas.webp",
-    description:
-      `‘Menú y Propinas’ es una app que simula la gestión de pedidos en un restaurante. Permite registrar, agregar o eliminar platillos, y calcular automáticamente subtotal, propina y total al finalizar un pedido. Una herramienta funcional y sencilla para optimizar la atención al cliente.`,
+    description: `‘Menú y Propinas’ es una app que simula la gestión de pedidos en un restaurante. Permite registrar, agregar o eliminar platillos, y calcular automáticamente subtotal, propina y total al finalizar un pedido. Una herramienta funcional y sencilla para optimizar la atención al cliente.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -79,13 +77,12 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 5,
     url: "https://menuypropinas.netlify.app/",
-    alt: "imagen-proyecto-menu&propinas"
+    alt: "imagen-proyecto-menu&propinas",
   },
   {
     title: "My Budget Control",
     img: "/img/my-budget-control.webp",
-    description:
-      `My BudgetControl es una app para gestionar presupuestos personales. Permite registrar, editar y eliminar gastos, y muestra gráficamente el porcentaje del presupuesto consumido, ofreciendo una visión clara del estado financiero en tiempo real.`,
+    description: `My BudgetControl es una app para gestionar presupuestos personales. Permite registrar, editar y eliminar gastos, y muestra gráficamente el porcentaje del presupuesto consumido, ofreciendo una visión clara del estado financiero en tiempo real.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -95,13 +92,12 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 6,
     url: "https://my-budget-control.netlify.app/",
-    alt: "imagen-proyecto-my-budget-control"
+    alt: "imagen-proyecto-my-budget-control",
   },
-    {
+  {
     title: "Garlo Pacientes",
     img: "/img/garlo-pacientes.webp",
-    description:
-      `Aplicación para la odontóloga Paulina que permite agendar, editar y eliminar citas de forma sencilla y organizada. Se usaron tecnologías como Tailwind CSS para el diseño, React Toastify para notificaciones, React Hook Form para formularios y Zustand para manejo de estado global.`,
+    description: `Aplicación para la odontóloga Paulina que permite agendar, editar y eliminar citas de forma sencilla y organizada. Se usaron tecnologías como Tailwind CSS para el diseño, React Toastify para notificaciones, React Hook Form para formularios y Zustand para manejo de estado global.`,
     technologiesUse: "Tecnologias Usadas:",
     technologie01: "React/TypeScript",
     descrptionTechnologie01:
@@ -111,7 +107,21 @@ export const projects: Projects[] = [
       "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 7,
     url: "https://garlo-pacientes.netlify.app/",
-    alt: "imagen-proyecto-garlo-pacientes"
-  }
-
+    alt: "imagen-proyecto-garlo-pacientes",
+  },
+  {
+    title: "Cotizador de Cryptos",
+    img: "/img/comming soon.webp",
+    description: ``,
+    technologiesUse: "",
+    technologie01: "",
+    descrptionTechnologie01:
+      "",
+    technologie02: "",
+    descrptionTechnologie02:
+      "",
+    id: 8,
+    url: "",
+    alt: "imagen-proyecto-proximamente",
+  },
 ];
