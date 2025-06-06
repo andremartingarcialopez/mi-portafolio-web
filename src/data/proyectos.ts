@@ -110,18 +110,18 @@ export const projects: Projects[] = [
     alt: "imagen-proyecto-garlo-pacientes",
   },
   {
-    title: "Cotizador de Cryptos",
-    img: "/img/comming soon.webp",
-    description: ``,
-    technologiesUse: "",
-    technologie01: "",
+    title: "Track Your CryptoMonedas",
+    img: "/img/TrackYourCryptoMonedas.webp",
+    description: `Track your CryptoMonedas es una app web interactiva para consultar en tiempo real las 10 criptomonedas más relevantes. Permite ver su valor en moneda local y acceder a estadísticas clave como precio de apertura, mínimo y máximo diario. La aplicación consume datos desde una API externa, optimizando las peticiones mediante herramientas como Axios.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
     descrptionTechnologie01:
-      "",
-    technologie02: "",
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
     descrptionTechnologie02:
-      "",
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
     id: 8,
-    url: "",
+    url: "https://track-your-cryptos.netlify.app/",
     alt: "imagen-proyecto-proximamente",
   },
 ];

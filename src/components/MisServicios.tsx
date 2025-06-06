@@ -8,11 +8,11 @@ export default function MisServicios() {
                 <h3 className="subtitulos">Un compañero de trabajo el cual se caracteriza por ser perseverante y responsable.</h3>
             </div>
 
-            <div   className='w-full gap-y-4 flex lg:flex-row flex-col justify-center lg:justify-center lg:gap-x-20 items-center pb-20'>
+            <div   className='w-full gap-y-4 flex xl:flex-row flex-col justify-center lg:justify-center lg:gap-x-20 items-center pb-20'>
 
-                <img className='w-[25rem]' src="img/yo1.webp" width="100px" height="100px" alt="imagen-servicios" />
+                <img className='md:w-150 xl:w-90' src="img/yo1.webp"  alt="imagen-servicios" />
 
-                <div className='flex flex-col pt-7 lg:pt-0  justify-center items-center gap-y-[2rem]'>
+                <div className='flex flex-col pt-10 justify-center items-center gap-y-[2rem]'>
 
                     <div className='glass-object-services px-7 w-[20rem] md:w-[40rem] rounded-lg p-2'>
                         <div className='flex flex-row justify-start items-center gap-x-3'>

@@ -37,12 +37,12 @@ export default function ProjectDetails() {
             </header>
 
 
-            <div className="flex h-screen justify-center items-center content ">
+            <div className="flex flex-col xl:justify-center items-stretch p-2 mt-10 lg:mt-30 xl:mt-0 xl:h-screen min-h-screen ">
 
-                <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-5 md:mx-auto md:max-w-7xl px-2 mt-10 lg:mt-0">
+                <div className="grid grid-cols-1 xl:grid-cols-2 md:gap-5 md:mx-auto md:max-w-7xl px-2 mt-10 lg:mt-0">
 
-                    <div className="px-2 w-full flex flex-col justify-center items-center h-full space-y-3 ">
-                        <h2 className='font-bold text-[1.5rem] p-2 text-white/90'>{projectParams?.title}</h2>
+                    <div className="px-2 w-full flex flex-col justify-center items-center md:items-start space-y-3 ">
+                        <h2 className='font-bold text-[1.5rem] p-2 text-white/90 '>{projectParams?.title}</h2>
                         <a className="" href={projectParams?.url}>
                             <img className='glass-object rounded-2xl w-[20rem] md:w-full hover:animate-pulse ' src={`${projectParams?.img}`} alt={projectParams?.alt} />
                         </a>
@@ -51,7 +51,7 @@ export default function ProjectDetails() {
 
                     <div className="mx-2">
 
-                        <p className='pt-2 text-center md:text-start text-white/90 lg:mt-15'>{projectParams?.description}</p>
+                        <p className='pt-2 text-center md:text-start text-white/90 xl:mt-15'>{projectParams?.description}</p>
                         <p className='pt-2 text-center md:text-start text-white/90 uppercase font-semibold'>{projectParams?.technologiesUse}</p>
                         <p className='pt-2 text-center md:text-start text-[#d6fd49]'>{projectParams?.technologie01}</p>
                         <p className='pt-2 text-center md:text-start text-white/90'>{projectParams?.descrptionTechnologie01}</p>

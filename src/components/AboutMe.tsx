@@ -6,34 +6,34 @@ export function SobreMi() {
     return (
         <>
 
-            <div className="mt-8">
+            <div className="">
                 <h2 className='background-title text-shadow titulos pt-14'>Sobre mi</h2>
                 <h3 className='subtitulos pb-0'>Un poco más de mi vida...</h3>
             </div>
-            <div className='w-full gap-y-4 flex flex-col justify-center lg:justify-around lg:gap-x-20 items-center'>
 
-                <div  >
-                    <img src="img/yo2.webp" className='w-[370px]' width="100px" height="100px" alt="imagen-sobre-mi" />
+            <div>
+                <div className="flex justify-center items-center w-full">
+                    <img src="img/yo2.webp" className='md:w-150 xl:w-95' alt="imagen-sobre-mi" />
+                </div>
+                <div className='flex flex-col gap-10 mx-auto max-w-6xl xl:flex-row'>
+
+                    {sobreMi.map(function (hobbies) {
+                        return (
+
+                            <div key={hobbies.id} className='glass-object-about-me mx-auto w-[20rem] md:w-[40rem] rounded-2xl p-5'>
+                                <div className='flex justify-center md:justify-start items-center gap-x-3 about-title text-2xl lg:text-2xl'>
+                                    <div className="h-8 w-8 text-[#FF886A]">{hobbies.icono}</div>
+                                    <h3 className='text-left pb-2 font-[600] uppercase'> {hobbies.title}</h3>
+                                </div>
+                                <p className='text-white/80 text-left'>{hobbies.text}</p>
+
+                            </div>
+
+                        )
+                    })}
                 </div>
             </div>
 
-            <div className='flex flex-col gap-10 mx-auto max-w-6xl lg:flex-row'>
-
-                {sobreMi.map(function (hobbies) {
-                    return (
-
-                        <div key={hobbies.id} className='glass-object-about-me mx-auto w-[20rem] md:w-[40rem] rounded-2xl p-5'>
-                            <div className='flex justify-center md:justify-start items-center gap-x-3 about-title text-2xl lg:text-2xl'>
-                                <div className="h-8 w-8 text-[#FF886A]">{hobbies.icono}</div>
-                                <h3 className='text-left pb-2 font-[600] uppercase'> {hobbies.title}</h3>
-                            </div>
-                            <p className='text-white/80 text-left'>{hobbies.text}</p>
-
-                        </div>
-
-                    )
-                })}
-            </div>
 
 
             <div data-aos="fade-up  " className='mt-15 text-center mx-auto'>
