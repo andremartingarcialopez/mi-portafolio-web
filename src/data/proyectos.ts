@@ -124,4 +124,20 @@ export const projects: Projects[] = [
     url: "https://track-your-cryptos.netlify.app/",
     alt: "imagen-proyecto-proximamente",
   },
+
+  {
+    title: "SkyWatch",
+    img: "/img/skyWatch.webp",
+    description: `SkyWatch es una aplicación meteorológica sencilla que te permite consultar el clima en diferentes partes del mundo. Solo tienes que seleccionar el país e ingresar el nombre de la ciudad para obtener la información. Esta mini proyecto fue desarrollado con el objetivo de poner en práctica el consumo de datos desde APIs.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
+    descrptionTechnologie01:
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
+    descrptionTechnologie02:
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
+    id: 9,
+    url: "https://skywatchweathertime.netlify.app/",
+    alt: "imagen-proyecto-SkyWatch",
+  },
 ];
