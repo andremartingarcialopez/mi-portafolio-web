@@ -140,4 +140,21 @@ export const projects: Projects[] = [
     url: "https://skywatchweathertime.netlify.app/",
     alt: "imagen-proyecto-SkyWatch",
   },
+
+    {
+    title: "DrinkRecipes",
+    img: "/img/drink-recipe.webp",
+    description: `Drink Recipes es una aplicación web para buscar recetas de bebidas y cócteles, utilizando datos obtenidos desde una API externa. Además de permitir explorar distintas recetas, la plataforma ofrece la posibilidad de guardar tus bebidas favoritas en una sección personalizada. \n
+    El proyecto fue desarrollado con tecnologías modernas como Zustand para la gestión del estado global, TailwindCSS para el diseño y los estilos mediante clases utilitarias, Headless UI para la implementación accesible de modales, y Heroicons para el uso de íconos SVG elegantes y funcionales.`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "React/TypeScript",
+    descrptionTechnologie01:
+      "Para un desarrollo rápido y eficiente, aprovechando su rendimiento optimizado en la construcción y recarga de la aplicación.",
+    technologie02: "TailwindCSS",
+    descrptionTechnologie02:
+      "Para un diseño responsivo y atractivo, asegurando que la interfaz sea visualmente agradable y funcional en todos los dispositivos.",
+    id: 10,
+    url: "https://drink-recipes-cocktail.netlify.app/",
+    alt: "imagen-proyecto-Drink-Recipes",
+  },
 ];
