@@ -157,4 +157,19 @@ export const projects: Projects[] = [
     url: "https://drink-recipes-cocktail.netlify.app/",
     alt: "imagen-proyecto-Drink-Recipes",
   },
+   {
+    title: "TitanGym (Proximamente...)",
+    img: "/img/titanGym.webp",
+    description: `Proximamente`,
+    technologiesUse: "Tecnologias Usadas:",
+    technologie01: "Proximamente",
+    descrptionTechnologie01:
+      "Proximamente",
+    technologie02: "Proximamente",
+    descrptionTechnologie02:
+      "Proximamente",
+    id: 11,
+    url: "#",
+    alt: "imagen-proyecto-Titan-Gym",
+  }
 ];
